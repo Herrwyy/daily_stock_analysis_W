@@ -1,0 +1,5 @@
+2026-01-19 19:43:24 | WARNING  | __main__             | [002558] 趋势分析失败: (sqlite3.OperationalError) no such column: stock_daily.dif
+[SQL: SELECT stock_daily.id, stock_daily.code, stock_daily.date, stock_daily.open, stock_daily.high, stock_daily.low, stock_daily.close, stock_daily.volume, stock_daily.amount, stock_daily.pct_chg, stock_daily.ma5, stock_daily.ma10, stock_daily.ma20, stock_daily.volume_ratio, stock_daily.dif, stock_daily.dea, stock_daily.macd, stock_daily.rsi_6, stock_daily.rsi_12, stock_daily.rsi_24, stock_daily.data_source, stock_daily.created_at, stock_daily.updated_at   
+FROM stock_daily
+WHERE stock_daily.code = ? ORDER BY stock_daily.date DESC
+ LIMIT ? OFFSET ?]
